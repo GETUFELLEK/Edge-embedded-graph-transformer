@@ -5,8 +5,6 @@ import torch.nn as nn
 import math
 
 
-
-
 class MultiHeadAttention(nn.Module):
     def __init__(self, hidden_node_dim,hidden_edge_dim,n_nodes,n_heads=4,  attn_dropout=0.1, dropout=0):
         super(MultiHeadAttention, self).__init__()
@@ -56,8 +54,6 @@ class MultiHeadAttention(nn.Module):
         out_put = self.fc(out_put)
 
         return out_put  # (batch_size,hidden_dim)
-
-#
 
 
 
@@ -135,5 +131,4 @@ class MultiHeadAttentionLayer(nn.Module):
 
 
         return h
-#
-#
+
