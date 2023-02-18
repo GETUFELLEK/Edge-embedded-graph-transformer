@@ -12,5 +12,3 @@ TorchGeometric 1.5.0 or higher
 Torch-Scatter 2.0.8 or higher
 Torch-Sparse 0.6.12 or higher
 
-Usage
-The main script takes several command line arguments, including the input data file and various model hyperparameters. 
